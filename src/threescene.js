@@ -62,7 +62,7 @@ class threeScene extends HTMLElement {
     this.scene = new THREE.Scene();
 
     this.geometry = new THREE.BoxGeometry(1, 1, 1);
-    this.material = new THREE.MeshBasicMaterial({ color: 0xff0000 });
+    this.material = new THREE.MeshBasicMaterial({ color: 0xffff00 });
     this.cube = new THREE.Mesh(this.geometry, this.material);
     this.scene.add(this.cube);
 
