@@ -1,0 +1,18 @@
+{
+  "name": "3d-into-web-component",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "deploy": "vercel --prod"
+  },
+  "devDependencies": {
+    "vite": "~4.0.4"
+  },
+  "dependencies": {
+    "three": "^0.148.0",
+    "vercel": "^28.18.5"
+  }
+}
